@@ -2,7 +2,7 @@
 logs
 *.log
 npm-debug.log*
-yarn-debug.log*
+yarn-debug.log*temp
 yarn-error.log*
 lerna-debug.log*
 
@@ -86,3 +86,6 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+tmp/images/users/*
+!tmp/images/users/.getkeep
